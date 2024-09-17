@@ -75,3 +75,5 @@ There is a clear distinction in the TUKEY. HIGH SCHOOL-GRADUATE and LT HIGH SCHO
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+What I did is I ran the codeblock that I edited in with the dataset to get my data in the environment tab. I then used ggplot to plot my boxplots as the normal boxplot code did not show the categorical names for the DEGREE category. I then ran a numerical test to see the differences in quartiles and averages.. It showed that HIGH SCHOOL had the most students. I then ran ANOVA an put in the 0.98 in the TUKEY test. IT showed that there was a significant difference in the DEGREE category. This proves $H_a$ correct.
