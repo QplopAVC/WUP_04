@@ -42,6 +42,7 @@ basicCN <- ggplot(GSScsv,aes(x=DEGREE,y=WORDSUM))
 ```{r}
 basicCN + geom_boxplot()
 ```
+
 There seems to be a noticeable difference in scores on the DEGREE category. The first quartile of the GRADUATE category is much higher than the third quartile of the HIGH SCHOOL category. JUNIOR COLLAGE category's first quartile is also higher than LT HIGH SCHOOL category.
 
 ### Numerical Descriptive Results
@@ -51,6 +52,7 @@ There seems to be a noticeable difference in scores on the DEGREE category. The 
 ```{r}
 favstats(WORDSUM~DEGREE,data=GSScsv)
 ```
+
 GRADUATE has the highest average in the dataset. GRADUATE 1st quartile is 10 while LT HIGH SCHOOL 3rd quartile is 8.25 and HIGH SCHOOL 9. HIGH SCHOOL	category has about the same amount of people as all the other numbers combined. The difference is significant when looking at the number of people.
 
 ## Inferential Results
